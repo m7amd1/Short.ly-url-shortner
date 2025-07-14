@@ -8,25 +8,25 @@
 
 Built with:
 
-# 🟢 Node.js 
+- 🟢 Node.js 
 
-# 🚀 Express.js
+-🚀 Express.js
 
-# 🔌 WebSockets (real-time updates)
+- 🔌 WebSockets (real-time updates)
 
-# 🗄️ SQLite (lightweight database for storing URLs and analytics)
+- 🗄️ SQLite (lightweight database for storing URLs and analytics)
 
-# 🚀 Features
+🚀 Features
 
-## 🔗 Quick URL shortening with optional custom labels.
+- 🔗 Quick URL shortening with optional custom labels.
 
-## 📃 URL Listing: See all your shortened URLs and their analytics.
+- 📃 URL Listing: See all your shortened URLs and their analytics.
 
-## 📊 Analytics Dashboard: Track click counts, referrers, and more in real-time.
+- 📊 Analytics Dashboard: Track click counts, referrers, and more in real-time.
 
-## 📝 Edit/Delete URLs: Full CRUD operations for managing your links.
+- 📝 Edit/Delete URLs: Full CRUD operations for managing your links.
 
-## 🔔 Real-Time Updates: Uses WebSockets to live-update analytics when a URL is accessed.
+- 🔔 Real-Time Updates: Uses WebSockets to live-update analytics when a URL is accessed.
 
 
 # 🛠️ Tech Stack
