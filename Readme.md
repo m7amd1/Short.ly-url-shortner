@@ -10,7 +10,7 @@ Built with:
 
 - 🟢 Node.js 
 
--🚀 Express.js
+- 🚀 Express.js
 
 - 🔌 WebSockets (real-time updates)
 
