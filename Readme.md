@@ -1,4 +1,4 @@
-# 📎 URL Shortener Web App
+# 📎 Short.ly 
 ## A URL Shortener web application that allows users to:
 
 ✅ Quickly shorten URLs with custom labels for easy access.
