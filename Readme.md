@@ -29,7 +29,7 @@ Built with:
 - 🔔 Real-Time Updates: Uses WebSockets to live-update analytics when a URL is accessed.
 
 
-# 🛠️ Tech Stack
+🛠️ Tech Stack
 - Backend: Node.js, Express.js
 
 - Database: SQLite (via better-sqlite3)
