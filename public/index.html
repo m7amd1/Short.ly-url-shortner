@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{csrfToken}}" />
+    <title>URL Shortener | Short.ly</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="data:image/png;base64,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"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Short.ly</h1>
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/analytics.html">Analytics</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="shortener-form card">
+        <h2>Shorten Your URL</h2>
+        <form id="urlForm">
+          <div class="form-group">
+            <label for="originalUrl">Destination URL</label>
+            <input
+              type="url"
+              id="originalUrl"
+              placeholder="Enter URL to shorten"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="urlLabel">Label (Optional)</label>
+            <input
+              type="text"
+              id="urlLabel"
+              placeholder="Enter a label for this URL"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Shorten URL</button>
+        </form>
+        <div id="result" class="hidden"></div>
+      </section>
+
+      <section class="url-list">
+        <h2>Your Shortened URLs</h2>
+        <div class="controls">
+          <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Search URLs..." />
+          </div>
+          <div class="filter-group">
+            <select id="sortSelect">
+              <option value="newest">Newest</option>
+              <option value="oldest">Oldest</option>
+              <option value="most">Most Clicks</option>
+            </select>
+          </div>
+        </div>
+        <div id="urlsContainer"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <h1 class="logo">Short.ly</h1>
+        <p>&copy; 2025 Short.ly - URL Shortener</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
